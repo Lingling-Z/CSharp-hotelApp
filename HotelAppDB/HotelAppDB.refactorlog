@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5be8b22d-23ba-47fa-835a-244e67dc3110" ChangeDateTime="05/30/2023 21:09:48">
+    <Property Name="ElementName" Value="[dbo].[FK_Rooms_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Rooms]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Rooms_RoomTypes(Id)]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a864b8ef-d327-40ab-87cb-bce2c8ffe8cf" ChangeDateTime="05/30/2023 21:11:14">
+    <Property Name="ElementName" Value="[dbo].[FK_Rooms_RoomTypes(Id)]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Rooms]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Rooms_RoomTypes]" />
+  </Operation>
+</Operations>
